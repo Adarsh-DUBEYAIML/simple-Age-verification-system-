@@ -1,0 +1,12 @@
+#include <stdio.h>
+void main(){
+int A;
+
+printf("What is your  birth year --- ");
+scanf("%d", &A);
+if (A<=2008 & A>=2000){printf("You are verified !");
+}else{ 
+
+printf("YOU ARE NOT VERIFIED");
+}
+ }
